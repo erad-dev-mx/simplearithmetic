@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">simplearithmetic</string>
+
+    <string name="title_greetings">Hi, Good day!</string>
+    <string name="subtitle_important_people">Important people</string>
+    <string name="subtitle_operations">Operations</string>
+
+    <string name="title_what_is">What is Arithmetic?</string>
+    <string name="what_is_text">Arithmetic is a branch of mathematics that involves numbers and basic operations like addition, subtraction, multiplication, and division. It is the foundation of all math concepts.</string>
+
+    <string name="important_people_1">Pythagoras</string>
+    <string name="important_people_1_text">Greek philosopher and mathematician, known for the theorem named after him. In arithmetic, he explored the properties of numbers, such as perfect numbers, amicable numbers, and figurate numbers (triangular, square, etc.). He founded the Pythagorean school, which viewed numbers as the foundation of the universe.</string>
+    <string name="important_people_2">Euclid</string>
+    <string name="important_people_2_text">Author of The Elements, a foundational work in mathematics. In arithmetic, he developed the Euclidean algorithm to find the greatest common divisor (GCD) and worked on the theory of prime numbers, proving that there are infinitely many primes.</string>
+    <string name="important_people_3">Diophantus of Alexandria</string>
+    <string name="important_people_3_text">Known as the "father of algebra," he wrote Arithmetica, a treatise on equations and integers. He introduced solutions to Diophantine equations, which seek integer solutions to arithmetic problems.</string>
+    <string name="important_people_4">Aryabhata</string>
+    <string name="important_people_4_text">Indian mathematician who worked in arithmetic and astronomy. He introduced the decimal numbering system with the use of zero and developed methods for solving quadratic equations and calculating square roots.</string>
+    <string name="important_people_5">Al-Khwarizmi</string>
+    <string name="important_people_5_text">Persian mathematician whose name gave rise to the word "algorithm." In his work Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala, he systematized arithmetic operations and popularized the use of Hindu-Arabic numerals in the West.</string>
+    <string name="important_people_6">Leonardo of Pisa</string>
+    <string name="important_people_6_text">Introduced the Hindu-Arabic numeral system to Europe with his book Liber Abaci. He is also famous for the Fibonacci sequence, an arithmetic series with applications in nature and mathematics.</string>
+
+    <string name="operation_addition">Addition</string>
+    <string name="operation_subtraction">Subtraction</string>
+    <string name="operation_multiplication">Multiplication</string>
+    <string name="operation_division">Division</string>
+    <string name="operation_exponentiation">Exponentiation</string>
+    <string name="operation_modulo">Modulo</string>
+    <string name="operation_square_root">Square root</string>
+    <string name="operation_unknown">Unknown</string>
+    <string name="operation_calculate">Calculate</string>
+
+    <string name="about_section_title">About</string>
+    <string name="home_section_title">Home</string>
+
+    <string name="what_is_simple_title">simplesoftware</string>
+    <string name="what_is_simple_text">Creating simple Android apps</string>
+</resources>
