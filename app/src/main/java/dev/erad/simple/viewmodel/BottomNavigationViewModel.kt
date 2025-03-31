@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.viewmodel
+package dev.erad.simple.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -34,6 +34,6 @@
     <string name="about_section_title">About</string>
     <string name="home_section_title">Home</string>
 
-    <string name="what_is_simple_title">simplesoftware</string>
-    <string name="what_is_simple_text">Creating simple Android apps</string>
+    <string name="what_is_simple_arithmetic_title">simplearithmetic</string>
+    <string name="what_is_simple_arithmetic_text">a simple android app</string>
 </resources>

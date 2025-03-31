@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.theme
+package dev.erad.simple.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.components
+package dev.erad.simple.ui.components
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -12,8 +12,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
-import dev.erad.simplesoftware.ui.navigation.BottomNavItem
-import dev.erad.simplesoftware.viewmodel.BottomNavigationViewModel
+import dev.erad.simple.ui.navigation.BottomNavItem
+import dev.erad.simple.viewmodel.BottomNavigationViewModel
 
 @Composable
 fun BottomNavigationBar(

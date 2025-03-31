@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.components
+package dev.erad.simple.ui.components
 
 import android.content.res.Configuration
 import androidx.annotation.DrawableRes
@@ -29,11 +29,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
-import dev.erad.simplesoftware.model.DrawableStringModel
-import dev.erad.simplesoftware.ui.theme.Dimens
-import dev.erad.simplesoftware.ui.theme.SimpleArithmeticTheme
-import dev.erad.simplesoftware.ui.theme.shapes
-import dev.erad.simplesoftware.viewmodel.ArithmeticViewModel
+import dev.erad.simple.model.DrawableStringModel
+import dev.erad.simple.ui.theme.Dimens
+import dev.erad.simple.ui.theme.SimpleArithmeticTheme
+import dev.erad.simple.ui.theme.shapes
+import dev.erad.simple.viewmodel.ArithmeticViewModel
 
 @Composable
 fun OperationCard(

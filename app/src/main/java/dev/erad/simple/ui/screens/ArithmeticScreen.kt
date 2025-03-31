@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.screens
+package dev.erad.simple.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Spacer
@@ -13,15 +13,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import dev.erad.simplesoftware.R
-import dev.erad.simplesoftware.ui.components.ImportantPeopleHorizontalGrid
-import dev.erad.simplesoftware.ui.components.OperationCard
-import dev.erad.simplesoftware.ui.components.SubtitleComponent
-import dev.erad.simplesoftware.ui.components.TitleComponent
-import dev.erad.simplesoftware.ui.components.WhatIsComponent
-import dev.erad.simplesoftware.ui.theme.Dimens
-import dev.erad.simplesoftware.viewmodel.ArithmeticViewModel
-import dev.erad.simplesoftware.viewmodel.WhatIsViewModel
+import dev.erad.simple.R
+import dev.erad.simple.ui.components.ImportantPeopleHorizontalGrid
+import dev.erad.simple.ui.components.OperationCard
+import dev.erad.simple.ui.components.SubtitleComponent
+import dev.erad.simple.ui.components.TitleComponent
+import dev.erad.simple.ui.components.WhatIsComponent
+import dev.erad.simple.ui.theme.Dimens
+import dev.erad.simple.viewmodel.ArithmeticViewModel
+import dev.erad.simple.viewmodel.WhatIsViewModel
 
 @Composable
 fun ArithmeticScreen(

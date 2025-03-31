@@ -1,9 +1,9 @@
-package dev.erad.simplesoftware.viewmodel
+package dev.erad.simple.viewmodel
 
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
-import dev.erad.simplesoftware.R
-import dev.erad.simplesoftware.model.DrawableStringModel
+import dev.erad.simple.R
+import dev.erad.simple.model.DrawableStringModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

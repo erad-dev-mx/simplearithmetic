@@ -1,14 +1,14 @@
-package dev.erad.simplesoftware
+package dev.erad.simple
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.ui.Modifier
-import dev.erad.simplesoftware.ui.navigation.AppNavGraph
-import dev.erad.simplesoftware.ui.theme.SimpleArithmeticTheme
-import dev.erad.simplesoftware.viewmodel.ArithmeticViewModel
-import dev.erad.simplesoftware.viewmodel.WhatIsViewModel
+import dev.erad.simple.ui.navigation.AppNavGraph
+import dev.erad.simple.ui.theme.SimpleArithmeticTheme
+import dev.erad.simple.viewmodel.ArithmeticViewModel
+import dev.erad.simple.viewmodel.WhatIsViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

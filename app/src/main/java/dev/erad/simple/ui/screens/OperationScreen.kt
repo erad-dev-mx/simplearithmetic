@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.screens
+package dev.erad.simple.ui.screens
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column
@@ -28,11 +28,11 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import dev.erad.simplesoftware.R
-import dev.erad.simplesoftware.ui.components.TitleComponent
-import dev.erad.simplesoftware.ui.theme.Dimens
-import dev.erad.simplesoftware.ui.theme.SimpleArithmeticTheme
-import dev.erad.simplesoftware.viewmodel.OperationViewModel
+import dev.erad.simple.R
+import dev.erad.simple.ui.components.TitleComponent
+import dev.erad.simple.ui.theme.Dimens
+import dev.erad.simple.ui.theme.SimpleArithmeticTheme
+import dev.erad.simple.viewmodel.OperationViewModel
 import kotlin.math.pow
 
 @Composable

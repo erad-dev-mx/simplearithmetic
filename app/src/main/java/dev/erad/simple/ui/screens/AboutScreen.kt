@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.screens
+package dev.erad.simple.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -15,11 +15,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
-import dev.erad.simplesoftware.R
-import dev.erad.simplesoftware.ui.components.TitleComponent
-import dev.erad.simplesoftware.ui.components.WhatIsComponent
-import dev.erad.simplesoftware.ui.theme.Dimens
-import dev.erad.simplesoftware.viewmodel.WhatIsViewModel
+import dev.erad.simple.R
+import dev.erad.simple.ui.components.TitleComponent
+import dev.erad.simple.ui.components.WhatIsComponent
+import dev.erad.simple.ui.theme.Dimens
+import dev.erad.simple.viewmodel.WhatIsViewModel
 
 @Composable
 fun AboutScreen(
@@ -41,8 +41,8 @@ fun AboutScreen(
                 WhatIsComponent(
                     modifier = modifier,
                     viewModel = whatIsViewModel,
-                    title = stringResource(R.string.what_is_simple_title),
-                    body = stringResource(R.string.what_is_simple_text)
+                    title = stringResource(R.string.what_is_simple_arithmetic_title),
+                    body = stringResource(R.string.what_is_simple_arithmetic_text)
                 )
             }
             item {
@@ -50,13 +50,13 @@ fun AboutScreen(
                     modifier = modifier.padding(top = Dimens.dp250),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Text(text = "with ")
+                    Text(text = "made with ")
                     Icon(
                         imageVector = ImageVector.vectorResource(id = R.drawable.ic_fav),
                         contentDescription = "Heart",
                         tint = MaterialTheme.colorScheme.primary
                     )
-                    Text(text = " erick.")
+                    Text(text = " by simple.")
                 }
             }
         }

@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.components
+package dev.erad.simple.ui.components
 
 import android.content.res.Configuration
 import androidx.compose.foundation.LocalIndication
@@ -26,9 +26,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
-import dev.erad.simplesoftware.ui.theme.Dimens
-import dev.erad.simplesoftware.ui.theme.SimpleArithmeticTheme
-import dev.erad.simplesoftware.viewmodel.WhatIsViewModel
+import dev.erad.simple.ui.theme.Dimens
+import dev.erad.simple.ui.theme.SimpleArithmeticTheme
+import dev.erad.simple.viewmodel.WhatIsViewModel
 
 @Composable
 fun WhatIsComponent(

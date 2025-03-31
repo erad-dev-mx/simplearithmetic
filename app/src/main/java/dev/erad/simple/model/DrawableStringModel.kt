@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.model
+package dev.erad.simple.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

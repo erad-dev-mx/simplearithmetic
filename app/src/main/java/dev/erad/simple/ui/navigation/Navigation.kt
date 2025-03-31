@@ -1,4 +1,4 @@
-package dev.erad.simplesoftware.ui.navigation
+package dev.erad.simple.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -10,15 +10,15 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import dev.erad.simplesoftware.R
-import dev.erad.simplesoftware.ui.components.BottomNavigationBar
-import dev.erad.simplesoftware.ui.screens.AboutScreen
-import dev.erad.simplesoftware.ui.screens.ArithmeticScreen
-import dev.erad.simplesoftware.ui.screens.OperationScreen
-import dev.erad.simplesoftware.viewmodel.ArithmeticViewModel
-import dev.erad.simplesoftware.viewmodel.BottomNavigationViewModel
-import dev.erad.simplesoftware.viewmodel.OperationViewModel
-import dev.erad.simplesoftware.viewmodel.WhatIsViewModel
+import dev.erad.simple.R
+import dev.erad.simple.ui.components.BottomNavigationBar
+import dev.erad.simple.ui.screens.AboutScreen
+import dev.erad.simple.ui.screens.ArithmeticScreen
+import dev.erad.simple.ui.screens.OperationScreen
+import dev.erad.simple.viewmodel.ArithmeticViewModel
+import dev.erad.simple.viewmodel.BottomNavigationViewModel
+import dev.erad.simple.viewmodel.OperationViewModel
+import dev.erad.simple.viewmodel.WhatIsViewModel
 
 sealed class BottomNavItem(val route: String, val icon: Int, val label: String) {
     data object Arithmetic : BottomNavItem("arithmetic", R.drawable.ic_home, "Home")
