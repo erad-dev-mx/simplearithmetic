@@ -4,7 +4,7 @@
 
 simplearithmetic is an Android app designed to perform basic mathematical operations. Built with Jetpack Compose and Material 3.
 
-![simplesoftware](assets/simple.png)
+![simple](assets/simple.png)
 
 :rocket: Part of __*[simple](https://erad.dev/simple.html)*__ by __*[erad.dev](https://erad.dev/)*__
 
