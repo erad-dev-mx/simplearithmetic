@@ -2,7 +2,7 @@
 
 ![simplearithmetic](assets/main.png)
 
-simplearithmetic is an Android app designed to perform basic mathematical operations. Built with Jetpack Compose and Material 3.
+simplearithmetic is an android app.
 
 ![simple](assets/simple.png)
 
