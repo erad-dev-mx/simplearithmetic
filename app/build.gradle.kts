@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.erad.simple"
+    namespace = "erad.simple.simplearithmetic"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "dev.erad.simple"
+        applicationId = "erad.simple.simplearithmetic"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
