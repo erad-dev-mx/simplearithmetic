@@ -1,10 +1,10 @@
 # simplearithmetic
 
-![simplearithmetic](assets/main.png)
+![simplearithmetic](assets/main.svg)
 
 simplearithmetic is an android app.
 
-![simple](assets/simple.png)
+![simple](assets/simple.svg)
 
 :rocket: Part of __*[simple](https://erad.dev/simple.html)*__ by __*[erad.dev](https://erad.dev/)*__
 
